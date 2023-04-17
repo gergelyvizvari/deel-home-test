@@ -19,13 +19,14 @@ name: Gergely Vizvari
 ## short logic
 
 The test requested to create an autocomplete component:
-  - App.tsx: to represent using api https://restcountries.com/v3.1/all (only to get countries)
-  - components/autoCOmplete is the requested component
-    - hooks/autocomplete.ts: *easy to change async filter*
-    - index.tsx & index.css: the component wrapper
-    - list.tsx: displaying the filter results
-    - listItem.tsx: displaying one record highlighting the matching characters
-    - search.tsx: input field for autocomplete
+
+- App.tsx: to represent using api https://restcountries.com/v3.1/all (only to get countries)
+- components/autoComplete is the requested component
+  - **hooks/autocomplete.ts**: the async filter
+  - **index.tsx & index.css**: the component wrapper
+  - **list.tsx**: displaying the filter results
+  - **listItem.tsx**: displaying one record highlighting the matching characters
+  - **search.tsx**: input field for autocomplete
 
 ## comments
 
