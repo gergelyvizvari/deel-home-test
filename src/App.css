@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.flags > img {
+  width: calc(50% - 0.5rem);
+}
